@@ -1,0 +1,44 @@
+.mbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.box1 {
+  height: 400px;
+  width: 40%;
+  /* display: flex; */
+  background-color: aqua;
+  align-self: flex-start;
+  /* flex-direction: row; */
+}
+#b1cont {
+  /* align-self: center; */
+  /* display: contents; */
+}
+.box2 {
+  height: 500px;
+  width: 40%;
+  background-color: rgb(114, 47, 47);
+  align-self: flex-end;
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+#b2cont {
+  align-self: auto;
+  /* display: contents; */
+}
+.cat {
+  height: 250px;
+  width: 250px;
+  float: left;
+}
+
+.dog {
+  height: 300px;
+  width: 250px;
+  float: left;
+}
+
+.footer {
+  background-color: purple;
+}
